@@ -1,0 +1,8 @@
+# port
+server:
+  port: 8300
+# eureka server url
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8777/eureka
